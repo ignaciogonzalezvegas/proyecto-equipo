@@ -5,10 +5,13 @@
     <b-card class="text-center">
       <div class="bg-secondary text-light">
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat
-          dolor laboriosam suscipit officiis fugit. Alias harum labore, aliquam
-          fugiat nisi repellendus nesciunt ullam, eum assumenda consequatur
-          perferendis suscipit, at corrupti?
+          CÓDIGO DEA: OD19251914
+          CÓDIGO ADMINISTRATIVO: 006490428
+          CÓDIGO ESTADÍSTICO: 191666
+
+          CORREO ELECTRÓNICO: eisgma20108@gmail.com
+
+          DIRECCIÓN: Av. Miranda, dentro del ETC "Modesto Silva"
         </p>
       </div>
     </b-card>
