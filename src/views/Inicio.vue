@@ -1,18 +1,20 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Base de Datos Equipo de Integración"/>
+    <h3>Mensaje de Bienvenida</h3>
+    <h3>Menu de opciones</h3>
+    <h3>Grafico de poblacion atendida</h3>
+    <navinicio/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import navinicio from '@/components/navinicio.vue'
 
 export default {
-  name: 'Incio',
+  name: 'Inicio',
   components: {
-    HelloWorld
+    navinicio
   }
 }
 </script>
