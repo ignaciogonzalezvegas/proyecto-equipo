@@ -11,6 +11,10 @@
           CORREO ELECTRÓNICO: eisgma20108@gmail.com
           DIRECCIÓN: Av. Miranda, dentro del ETC "Modesto Silva"
         </p>
+
+<h2>Tabla del personal</h2>
+    <b-table striped hover :items="items" :fields="fields"></b-table>
+
       </div>
     </b-card>
 
@@ -32,6 +36,8 @@ export default {
     PersonalInformacion,
   },
 };
+
+
 </script>
 
 Equipodatos
