@@ -34,7 +34,7 @@
   color: #2c3e50;
 }
 
-#nav {
+nav {
   padding: 30px;
   text-align: initial;
   background-color: ivory;
@@ -55,4 +55,10 @@ img {
   height: 60px;
   margin-right: 2%;
 }
+
+.nav-collapse{
+text-align: left;
+flex-grow: 0;
+}
+
 </style>
