@@ -34,16 +34,17 @@
   color: #2c3e50;
 }
 
-nav {
+
+/*#nav {
   padding: 30px;
   text-align: initial;
   background-color: ivory;
 }
-
+*/
 #nav a {
   font-weight: bold;
   color: #0a0a0a;
-  background-color: lightblue;
+ 
 }
 
 #nav a.router-link-exact-active {
@@ -56,9 +57,5 @@ img {
   margin-right: 2%;
 }
 
-.nav-collapse{
-text-align: left;
-flex-grow: 0;
-}
 
 </style>

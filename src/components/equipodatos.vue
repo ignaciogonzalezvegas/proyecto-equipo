@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'personalinformacion',
+  name: 'equipodatos',
   
 }
 </script>

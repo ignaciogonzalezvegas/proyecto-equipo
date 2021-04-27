@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Tabla del personal</h2>
+    <h3>Tabla del personal</h3>
     <b-table striped hover :items="items" :fields="fields"></b-table>
   </div>
 </template>
