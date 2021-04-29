@@ -8,17 +8,15 @@
       similique sapiente!
     </p>
     <h3>Grafico de poblacion atendida</h3>
-    <navinicio />
   </div>
 </template>
 
 <script>
-import navinicio from "@/components/navinicio.vue";
 
 export default {
   name: "Inicio",
   components: {
-    navinicio,
+    
   },
 };
 </script>

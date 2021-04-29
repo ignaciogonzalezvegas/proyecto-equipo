@@ -1,7 +1,10 @@
 <template>
   <div>
     <h1>Circuitos</h1>
-    <b-table striped hover :items="items"></b-table>
+    <div>
+      <b-table striped hover :items="items" small></b-table>
+    </div>
+    
   </div>
 </template>
 
@@ -32,16 +35,21 @@ export default {
         { Circuito: "20", Nombre: "Nva Esparta" },
         { Circuito: "21", Nombre: "Makro al Peñón" },
         { Circuito: "22", Nombre: "Tres Picos hasta Morochito" },
-        { Circuito: 38, Nombre: "Jami" },
-        { Circuito: 38, Nombre: "Jami" },
-        { Circuito: 38, Nombre: "Jami" },
-        { Circuito: 38, Nombre: "Jami" },
-        { Circuito: 38, Nombre: "Jami" },
-        { Circuito: 38, Nombre: "Jami" },
-        { Circuito: 38, Nombre: "Jami" },
+        { Circuito: "23", Nombre: "Via Cumanacoa" },
+        { Circuito: "24", Nombre: "San Juan" },
+        { Circuito: "25", Nombre: "Santa Fe" },
+        { Circuito: "26", Nombre: "Mochima a Bella Vista" },
+        { Circuito: "27", Nombre: "Arapo, Arapito" },
+        { Circuito: "28", Nombre: "Turimiquire" },
       ],
     };
   },
 };
 </script>
-<style></style>
+<style>
+#table {
+  padding: 1px;
+  border: aqua;
+  margin-left: 50px;
+}
+</style>
