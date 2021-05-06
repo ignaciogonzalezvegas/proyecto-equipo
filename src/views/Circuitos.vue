@@ -2,7 +2,7 @@
   <div>
     <h1>Circuitos</h1>
     <div>
-      <b-table striped hover :items="items" small></b-table>
+      <b-table striped hover :items="items" small bordered ></b-table>
     </div>
     
   </div>
@@ -51,5 +51,6 @@ export default {
   padding: 1px;
   border: aqua;
   margin-left: 50px;
+  display: flex;
 }
 </style>
