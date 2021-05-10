@@ -7,20 +7,36 @@
 
 <script>
 export default {
-  name: 'PersonalInformacion',
-    data() {
-      return {
-        items: [
-          { age: 40, first_name: 'Dickerson', last_name: 'Macdonald' },
-          { age: 21, first_name: 'Larsen', last_name: 'Shaw' },
-          { age: 89, first_name: 'Geneva', last_name: 'Wilson' },
-          { age: 38, first_name: 'Jami', last_name: 'Carney' }
-        ]
-      }
-    }
-}
+  name: "PersonalInformacion",
+  data() {
+    return {
+      items: [
+        
+        {
+          nombres: "Juan ",
+          apellidos: "Perdomo",
+          cedula_identidad: 25243655,
+          cargo: "docente",
+          funcion: "docente",
+        },
+        {
+          nombres: "María ",
+          apellidos: "Gómez",
+          cedula_identidad: 25243655,
+          cargo: "administrativo",
+          funcion: "secretaria",
+        },
+        {
+          nombres: "Antonio ",
+          apellidos: "Sánchez",
+          cedula_identidad: 25243655,
+          cargo: "obrero",
+          funcion: "aseador",
+        },
+      ],
+    };
+  },
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
