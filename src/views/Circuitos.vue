@@ -13,8 +13,8 @@ export default {
   data() {
     return {
       items: [
-        { Circuito: "01", Nombre: "La llanada" },
-        { Circuito: "02", Nombre: "Brasil" },
+        { Circuito: "01", Nombre: "La llanada", docente: "Marycarmen" },
+        { Circuito: "02", Nombre: "Brasil" ,docente: "Liceth"}, 
         { Circuito: "03", Nombre: "Cascajal, Bolivariano" },
         { Circuito: "04", Nombre: "Ezequiel Zamora a Lemus Pérez" },
         { Circuito: "05", Nombre: "Bebedero, Bolivariano" },
@@ -46,11 +46,4 @@ export default {
   },
 };
 </script>
-<style>
-#table {
-  padding: 1px;
-  border: aqua;
-  margin-left: 50px;
-  display: flex;
-}
-</style>
+
