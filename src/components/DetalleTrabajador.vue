@@ -1,29 +1,31 @@
 <template>
-  <div class="detalle">
-    <div>
-      <h3>Datos personales</h3>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, dolorum
-      accusantium voluptatibus est perspiciatis fuga vitae facere cum ipsa totam
-      voluptates libero nihil voluptatem cupiditate maxime ducimus odio error
-      quis?
-    </div>
+  <b-tabs content-class="mt-3">
+    <b-tab title="DATOS PERSONALES"
+      ><b-alert show
+        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint obcaecati
+        rem suscipit reiciendis, aperiam enim minima totam sapiente esse. Minima
+        corporis impedit accusamus quibusdam ducimus est quas quo fuga
+        provident.</b-alert
+      ></b-tab
+    >
 
-    <div>
-      <h3>Datos laborales</h3>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, dolorum
-      accusantium voluptatibus est perspiciatis fuga vitae facere cum ipsa totam
-      voluptates libero nihil voluptatem cupiditate maxime ducimus odio error
-      quis?
-    </div>
-
-    <div>
-      <h3>Datos académicos</h3>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, dolorum
-      accusantium voluptatibus est perspiciatis fuga vitae facere cum ipsa totam
-      voluptates libero nihil voluptatem cupiditate maxime ducimus odio error
-      quis?
-    </div>
-  </div>
+    <b-tab title="DATOS LABORALES" lazy
+      ><b-alert show
+        >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima ex
+        quis deleniti incidunt harum suscipit, atque nulla fugit. Voluptatibus
+        numquam odio cumque error sed obcaecati ullam aliquid qui esse
+        quam.</b-alert
+      ></b-tab
+    >
+     <b-tab title="DATOS ACADEMICOS" lazy
+      ><b-alert show
+        >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima ex
+        quis deleniti incidunt harum suscipit, atque nulla fugit. Voluptatibus
+        numquam odio cumque error sed obcaecati ullam aliquid qui esse
+        quam.</b-alert
+      ></b-tab
+    >
+  </b-tabs>
 </template>
 
 <script>
@@ -32,16 +34,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.detalle {
-  display: grid;
-  grid-template-columns: 50% 50%;
-}
-.detalle div {
-  background: #ecf0f1;
-  padding: 1em;
-}
-.detalle div:hover {
-  border: 1px solid #f1c40f;
-}
-</style>
+<style scoped></style>

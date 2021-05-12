@@ -10,6 +10,7 @@
           <router-link to="/equipo">Equipo</router-link> |
           <router-link to="/detalletrabajador">Detalle trabajador</router-link> |
           <router-link to="/circuitos">Circuitos</router-link> |
+          <router-link to="/instituciones-circuito">Instituciones Circuito</router-link> | 
           <router-link to="/instituciones">Instituciones</router-link> |
           <router-link to="/poblacion">Poblacion</router-link>
         </b-nav-text>
