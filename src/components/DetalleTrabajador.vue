@@ -1,4 +1,7 @@
 <template>
+
+<div>
+<h3>DETALLE TRABAJADOR</h3>
   <b-tabs content-class="mt-3">
     <b-tab title="DATOS PERSONALES"
       ><b-alert show
@@ -26,6 +29,7 @@
       ></b-tab
     >
   </b-tabs>
+  </div>
 </template>
 
 <script>
