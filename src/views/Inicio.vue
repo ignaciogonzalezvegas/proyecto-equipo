@@ -7,7 +7,7 @@
       delectus earum quidem quasi eveniet at aperiam impedit pariatur explicabo,
       similique sapiente!
     </p>
-    <h3>Grafico de poblacion atendida</h3>
+    <h3>Graficos de poblacion atendida</h3>
   </div>
 </template>
 

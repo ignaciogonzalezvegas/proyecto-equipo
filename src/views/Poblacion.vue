@@ -10,10 +10,20 @@ export default {
   data() {
     return {
       items: [
-        { age: 40, first_name: "Dickerson", last_name: "Macdonald" },
-        
-        
-     
+        {
+          nombres: "Dickerson",
+          apellidos: "Macdonald",
+          institucion: "kgiygi",
+          grado: "jkjh",
+          condicion: "retardo",
+        },
+        {
+          nombres: "Dickerson",
+          apellidos: "Macdonald",
+          institucion: "kgiygi",
+          grado: "jkjh",
+          condicion: "retardo",
+        },
       ],
     };
   },

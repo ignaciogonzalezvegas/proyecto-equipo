@@ -21,6 +21,11 @@ const routes = [
     component: () => import( '../components/DetalleTrabajador.vue')
   },
   {
+    path: '/detallepoblacion',
+    name: 'detallepoblacion',
+    component: () => import( '../components/DetallePoblacion.vue')
+  },
+  {
     path: '/circuitos',
     name: 'circuitos',
     component: () => import( '../views/Circuitos.vue')

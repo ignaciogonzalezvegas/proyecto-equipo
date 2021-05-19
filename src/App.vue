@@ -12,7 +12,8 @@
           <router-link to="/circuitos">Circuitos</router-link> |
           <router-link to="/instituciones-circuito">Instituciones Circuito</router-link> | 
           <router-link to="/instituciones">Instituciones</router-link> |
-          <router-link to="/poblacion">Poblacion</router-link>
+          <router-link to="/poblacion">Poblacion</router-link> |
+          <router-link to="/detallepoblacion">Detalle Poblacion</router-link>
         </b-nav-text>
         <b-navbar-nav id="nav" class="ml-auto ">
           <b-nav-item-dropdown left>
