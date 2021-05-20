@@ -2,7 +2,8 @@
   <div>
     <h1>Circuitos</h1>
     <div>
-      <b-table striped hover :items="items" small bordered></b-table>
+      <b-table striped hover :items="items" small bordered ></b-table>
+b-bu
     </div>
   </div>
 </template>
